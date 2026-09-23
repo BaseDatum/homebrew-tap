@@ -11,6 +11,10 @@ class Theuth < Formula
     end
   end
   on_linux do
+    on_arm do
+      url "https://s3.rwx.dev/theuth/releases/1.14.0/theuth_1.14.0_linux-aarch64.tar.gz"
+      sha256 "4a7bd606b3ff5f222c45374ea2afb3e6efdf575428d0aa906049a0ac34d38a82"
+    end
     on_intel do
       url "https://s3.rwx.dev/theuth/releases/1.14.0/theuth_1.14.0_linux-x86_64.tar.gz"
       sha256 "fc3796750299e45dc753eb388ff65d93d71294bffeeeb6a7b8cb619ce1837618"
