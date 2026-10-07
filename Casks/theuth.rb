@@ -1,6 +1,6 @@
 cask "theuth" do
-  version "2.12.1"
-  sha256 "9a1566a138aab303260d6700d5305fefaa94ad6bd466cd24e0a848517a1bd882"
+  version "2.12.2"
+  sha256 "3eeed4459dd9edcb69497916d4e5668781cd8901b8352504a831afd7ab867c6f"
 
   url "https://s3.rwx.dev/theuth/releases/#{version}/theuth_#{version}_macos-aarch64.dmg"
   name "theuth"
