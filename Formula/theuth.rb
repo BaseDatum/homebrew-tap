@@ -1,13 +1,13 @@
 class Theuth < Formula
   desc "Harness that does things for the user"
   homepage "https://theuth.io/"
-  version "2.20.0"
+  version "2.20.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://s3.rwx.dev/theuth/releases/2.20.0/theuth_2.20.0_macos-aarch64.tar.gz"
-      sha256 "daf4a930ec7bdf198ea8de0752ecfe70ec4fba30470fe88a814dc5368a92ed02"
+      url "https://s3.rwx.dev/theuth/releases/2.20.1/theuth_2.20.1_macos-aarch64.tar.gz"
+      sha256 "130c911e6335c1fc940509eda2341da9252e2418f9a0a16fd8f2bef4c94a74dd"
     end
   end
 
